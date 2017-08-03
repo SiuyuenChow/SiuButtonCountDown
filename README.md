@@ -21,6 +21,6 @@ countDownTitleColor:UIColor)
 *   countDownTitleColor  完成倒计时按钮文字颜色
 
 ### eg:
-> getCodeButton.startCountdown(startTime: 10, startButtonColor: .clear, startButtonBorderColor: .black, startTitleColor:UIColor.hexStringToColor(hexString: "#9be0b4"), countDownTitle: "Get the Code", countDownButtonColor: .clear, countDownButtonBorderColor: .clear, countDownTitleColor: .white)
+> getCodeButton.startCountDown(startTime: 10, startButtonColor: .clear, startButtonBorderColor: .black, startTitleColor:UIColor.hexStringToColor(hexString: "#9be0b4"), countDownTitle: "Get the Code", countDownButtonColor: .clear, countDownButtonBorderColor: .clear, countDownTitleColor: .white)
 
 
