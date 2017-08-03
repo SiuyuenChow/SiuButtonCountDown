@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85439D41F331222009E9FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85439D31F331222009E9FB9 /* AppDelegate.swift */; };
+		C85439D61F331222009E9FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85439D51F331222009E9FB9 /* ViewController.swift */; };
+		C85439D91F331222009E9FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85439D71F331222009E9FB9 /* Main.storyboard */; };
+		C85439DB1F331222009E9FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85439DA1F331222009E9FB9 /* Assets.xcassets */; };
+		C85439DE1F331222009E9FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85439DC1F331222009E9FB9 /* LaunchScreen.storyboard */; };
+		C85439E61F33123D009E9FB9 /* SiuButtonCountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85439E51F33123D009E9FB9 /* SiuButtonCountDown.swift */; };
+		C85439E81F3313BE009E9FB9 /* UIView+Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85439E71F3313BE009E9FB9 /* UIView+Exception.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C85439D01F331221009E9FB9 /* SiuButtonCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiuButtonCountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85439D31F331222009E9FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C85439D51F331222009E9FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C85439D81F331222009E9FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C85439DA1F331222009E9FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C85439DD1F331222009E9FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C85439DF1F331222009E9FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85439E51F33123D009E9FB9 /* SiuButtonCountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiuButtonCountDown.swift; sourceTree = "<group>"; };
+		C85439E71F3313BE009E9FB9 /* UIView+Exception.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Exception.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85439CD1F331221009E9FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85439C71F331221009E9FB9 = {
+			isa = PBXGroup;
+			children = (
+				C85439D21F331222009E9FB9 /* SiuButtonCountDown */,
+				C85439D11F331222009E9FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C85439D11F331222009E9FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C85439D01F331221009E9FB9 /* SiuButtonCountDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C85439D21F331222009E9FB9 /* SiuButtonCountDown */ = {
+			isa = PBXGroup;
+			children = (
+				C85439E71F3313BE009E9FB9 /* UIView+Exception.swift */,
+				C85439E51F33123D009E9FB9 /* SiuButtonCountDown.swift */,
+				C85439D31F331222009E9FB9 /* AppDelegate.swift */,
+				C85439D51F331222009E9FB9 /* ViewController.swift */,
+				C85439D71F331222009E9FB9 /* Main.storyboard */,
+				C85439DA1F331222009E9FB9 /* Assets.xcassets */,
+				C85439DC1F331222009E9FB9 /* LaunchScreen.storyboard */,
+				C85439DF1F331222009E9FB9 /* Info.plist */,
+			);
+			path = SiuButtonCountDown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C85439CF1F331221009E9FB9 /* SiuButtonCountDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85439E21F331222009E9FB9 /* Build configuration list for PBXNativeTarget "SiuButtonCountDown" */;
+			buildPhases = (
+				C85439CC1F331221009E9FB9 /* Sources */,
+				C85439CD1F331221009E9FB9 /* Frameworks */,
+				C85439CE1F331221009E9FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiuButtonCountDown;
+			productName = SiuButtonCountDown;
+			productReference = C85439D01F331221009E9FB9 /* SiuButtonCountDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85439C81F331221009E9FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Siu;
+				TargetAttributes = {
+					C85439CF1F331221009E9FB9 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = C85439CB1F331221009E9FB9 /* Build configuration list for PBXProject "SiuButtonCountDown" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C85439C71F331221009E9FB9;
+			productRefGroup = C85439D11F331222009E9FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C85439CF1F331221009E9FB9 /* SiuButtonCountDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C85439CE1F331221009E9FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85439DE1F331222009E9FB9 /* LaunchScreen.storyboard in Resources */,
+				C85439DB1F331222009E9FB9 /* Assets.xcassets in Resources */,
+				C85439D91F331222009E9FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C85439CC1F331221009E9FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85439E81F3313BE009E9FB9 /* UIView+Exception.swift in Sources */,
+				C85439E61F33123D009E9FB9 /* SiuButtonCountDown.swift in Sources */,
+				C85439D61F331222009E9FB9 /* ViewController.swift in Sources */,
+				C85439D41F331222009E9FB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C85439D71F331222009E9FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85439D81F331222009E9FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C85439DC1F331222009E9FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85439DD1F331222009E9FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C85439E01F331222009E9FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C85439E11F331222009E9FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C85439E31F331222009E9FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J26ST3TDCL;
+				INFOPLIST_FILE = SiuButtonCountDown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Siu.SiuButtonCountDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C85439E41F331222009E9FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J26ST3TDCL;
+				INFOPLIST_FILE = SiuButtonCountDown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Siu.SiuButtonCountDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C85439CB1F331221009E9FB9 /* Build configuration list for PBXProject "SiuButtonCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85439E01F331222009E9FB9 /* Debug */,
+				C85439E11F331222009E9FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85439E21F331222009E9FB9 /* Build configuration list for PBXNativeTarget "SiuButtonCountDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85439E31F331222009E9FB9 /* Debug */,
+				C85439E41F331222009E9FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C85439C81F331221009E9FB9 /* Project object */;
+}
