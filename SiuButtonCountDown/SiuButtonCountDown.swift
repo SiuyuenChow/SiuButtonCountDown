@@ -23,7 +23,7 @@ extension UIButton {
         let timer = DispatchSource.makeTimerSource(flags: [], queue: DispatchQueue.global())
         timer.schedule(wallDeadline: DispatchWallTime.now(), repeating: .seconds(1))
         timer.setEventHandler {
-            if timeOut <= 0{
+            if timeOut < 0{
                 timer.cancel()
                 DispatchQueue.main.async(execute: {
                     weakSelf?.setTitle(countDownTitle, for: .normal)
@@ -36,7 +36,6 @@ extension UIButton {
                 let allTime = startTime + 1
                 let seconds = timeOut % allTime
                 let timeString = String(seconds)
-                print(seconds)
                 DispatchQueue.main.async(execute: {
                     weakSelf?.setTitle(timeString, for: .normal)
                     weakSelf?.setTitleColor(startTitleColor, for: .normal)
