@@ -1,5 +1,5 @@
 # SiuButtonCountDown For Swift
-## 按钮倒计时
+## 倒计时按钮
 ### SiuButtonCountDown是UIButton的一个拓展类,直接使用以下方法即可实现倒计时
 > func startCountDown(startTime:NSInteger,
 startButtonColor:UIColor,
@@ -20,5 +20,7 @@ countDownTitleColor:UIColor)
 *   countDownButtonBorderColor    完成倒计时按钮的边框颜色
 *   countDownTitleColor  完成倒计时按钮文字颜色
 
+### eg:
+> getCodeButton.startCountdown(startTime: 10, startButtonColor: .clear, startButtonBorderColor: .black, startTitleColor:UIColor.hexStringToColor(hexString: "#9be0b4"), countDownTitle: "Get the Code", countDownButtonColor: .clear, countDownButtonBorderColor: .clear, countDownTitleColor: .white)
 
 
